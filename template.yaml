@@ -24,7 +24,7 @@ Resources:
       CodeUri: 's3://codebuilddemodinesh/app-helloworld-APICall.zip'
       MemorySize: 256
       Timeout: 15
-      Role: arn:aws:iam::590183679789:role/lambda_basic_execution
+      Role: arn:aws:lambda:us-east-1:590183679789:function:codebuilddemolambda
       
 artifacts:
   type: zip

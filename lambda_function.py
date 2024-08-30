@@ -30,6 +30,6 @@ def lambda_handler(event, context):
     # printing the output of the landmark --xxx added for stack3
     print("Latitude:%s\nLongitude:%s\nFormatted Address:%s"
       %(latitude, longitude,formatted_address))
-    output={"address":formatted_address} 
+    output={"addressnew":formatted_address} 
     return output
     #return('Hello from %s'%formatted_address)
